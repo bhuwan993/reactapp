@@ -1,0 +1,49 @@
+.links button::after{
+    content:"";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #00ff99;
+    bottom:-100%;
+    left:0;
+    transition: all ease-in-out 0.6s;
+}
+.links button:hover::after{
+    bottom:0;
+    transition: all ease-in-out 0.6s;
+}
+.links a::after{
+    content:"";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #00ff99;
+    bottom:-100%;
+    left:0;
+    transition: all ease-in-out 0.5s;
+}
+.links a:hover::after{
+    bottom:0;
+    transition: all ease-in-out 0.5s;
+}
+.links button:hover #download-icon{
+    color: black;
+}
+.project-btn button::after{
+    content:"";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:black;
+    bottom:-100%;
+    left:0;
+    transition: all ease-in-out 0.6s;
+}
+.project-btn button:hover::after{
+    bottom:0;
+    transition: all ease-in-out 0.6s;
+}
+.project-btn:hover button{
+    color:#00ff99;
+    border:1px solid #00ff99;
+}

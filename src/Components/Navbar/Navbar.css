@@ -1,0 +1,128 @@
+@keyframes moveMenubar{
+    from{
+      right:-50%;
+      opacity:0;
+    }
+    to{
+    right:0;
+    opacity:1;
+    }
+    
+}
+.menubar{
+    animation-name: moveMenubar;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+@keyframes moveMenuItems{
+    from{
+       right:-250vh;
+       opacity:0;
+
+    }
+    to{
+    right: 0;
+    opacity: 1;
+    }
+}
+.list a{
+    animation-name: moveMenuItems;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.list a:nth-child(1){
+    color: red;
+    /* animation-name: moveMenuItems; */
+    /* animation-duration: 6s; */
+    animation-delay: 0.15s;
+    /* animation-timing-function: ease-in-out; */
+    /* animation-iteration-count: 1; */
+   
+}
+.list a:nth-child(2){
+    /* animation-name: moveMenuItems; */
+    /* animation-duration: 6s; */
+    animation-delay: 0.2s;
+    /* animation-timing-function: ease-in-out; */
+    /* animation-iteration-count: 1; */
+    
+}
+.list a:nth-child(3){
+    /* animation-name: moveMenuItems; */
+    /* animation-duration: 6s; */
+    animation-delay: 0.4s;
+    /* animation-timing-function: ease-in-out; */
+    /* animation-iteration-count: 1; */
+  
+}
+.list a:nth-child(4){
+    /* animation-name: moveMenuItems; */
+    /* animation-duration: 6s; */
+    animation-delay: 0.5s;
+    /* animation-timing-function: ease-in-out; */
+    /* animation-iteration-count: 1; */
+   
+}
+.list a:nth-child(5){
+    /* animation-name: moveMenuItems; */
+    /* animation-duration: 6s; */
+    animation-delay: 0.6s;
+    /* animation-timing-function: ease-in-out; */
+    /* animation-iteration-count: 1; */
+}
+
+
+
+
+
+@keyframes moveCross{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.cross{
+    animation-name: moveCross;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-duration: normal;
+    animation-play-state: running;
+}
+@media screen and (min-width:1050px){
+
+    .nav-items a:hover #first-line, .nav-items a:hover #second-line{
+        width: 8.1vh;
+        transition: all ease-in-out 0.5s;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+    }
+    .nav-items a:hover #third-line, .nav-items a:hover #fourth-line{
+        width: 10.5vh;
+        transition: all linear  0.5s;
+    }
+    
+}
+
+.nav-items .hire-btn::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #00ff99;
+    bottom:-100%;
+    left:0;
+    transition: all ease-in-out 0.6s;
+    border-radius: 7px;
+}
+.nav-items  .hire-btn:hover::after{
+   bottom:0;
+   transition: all ease-in-out 0.6s;
+}
+.nav-items .hire-btn:hover{
+    color: black;
+}
