@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import Circleword from "../CircleWord/Circleword"
+// import Circleword from "../CircleWord/Circleword"
 import mPhoto from '../../assets/icons/mongodb.svg'
 import ePhoto from '../../assets/icons/express.svg'
 import rPhoto from '../../assets/icons/react.svg'
@@ -20,7 +20,7 @@ const About = () => {
        <div className="information text-[2.4vh] text-[#fff] font-['lato-regular']">
         I help business owners and busy web developers to design & develop creative website that fits their vision and attracts the visitors to stay for ever. Technologies and tools that I use to create such awesome websites.
        </div>
-        <div className="flex flex-wrap gap-[1.5vh] tracking-tighter">
+        {/* <div className="flex flex-wrap gap-[1.5vh] tracking-tighter">
           <Circleword text={'#javascript'}/>
           <Circleword text={'#react.js'}/>
           <Circleword text={'#redux'}/>
@@ -40,7 +40,7 @@ const About = () => {
           <Circleword text={'#gsap'}/>
           <Circleword text={'#framemotion'}/>
           <Circleword text={'#locomotive'}/>
-       </div>
+       </div> */}
        <div className="mt-[5vh]">
         <h1 className='font-["lato-bold"] text-[4vh] text-[#00ff99]'>MERN STACK</h1>
        </div>
